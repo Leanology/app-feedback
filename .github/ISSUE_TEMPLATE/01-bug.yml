@@ -1,0 +1,29 @@
+name: Bug report
+description: Report something in the Leanology app that does not work as expected.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This report is public. Keep personal information, health data and account details out of reports and screenshots. For private concerns, use [Leanology Help](https://leanology.cc/help).
+  - type: textarea
+    id: behavior
+    attributes:
+      label: What happened?
+      description: Tell us what you saw and what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the steps that lead to the issue, if you know them.
+      placeholder: |
+        1. Open …
+        2. Tap …
+        3. See …
+  - type: input
+    id: environment
+    attributes:
+      label: App version, device, and iOS or iPadOS version
+      description: The Leanology version and build are at the bottom of Settings.

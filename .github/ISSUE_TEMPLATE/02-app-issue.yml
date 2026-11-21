@@ -1,0 +1,19 @@
+name: Other app issue
+description: Report an issue with the Leanology app that does not fit the bug form.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This report is public. Keep personal information and health data out of reports. For private account, purchase or security concerns, use [Leanology Help](https://leanology.cc/help).
+  - type: textarea
+    id: issue
+    attributes:
+      label: What happened?
+      description: Tell us which part of the app is affected and what you were trying to do.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Leanology app version and build
+      description: You can find this at the bottom of Settings.
